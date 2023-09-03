@@ -27,7 +27,11 @@
         <!-- chat -->
         <section class="mb-10 flex items-center gap-4 justify-between">
           <!-- profile -->
-          <div class="w-2/12"><img src="/avatar.png" class="rounded-full" alt="avatar"></div>
+          <div class="w-2/12 relative">
+            <img src="/avatar.png" class="rounded-full" alt="avatar">
+            <!-- online indicator -->
+            <span class="w-3 h-3 block absolute right-1 bottom-0 rounded-full bg-sky-400"></span>
+          </div>
           <!-- detail -->
           <div class="w-9/12">
             <!-- top -->
