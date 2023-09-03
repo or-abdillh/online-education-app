@@ -11,7 +11,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": resolve(__dirname, 'src')
+      "@": resolve(__dirname, 'src'),
+      "@interface": resolve(__dirname, 'src/interfaces'),
     }
   },
   define: {

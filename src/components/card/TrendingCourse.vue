@@ -22,12 +22,7 @@
 <script setup lang="ts">
 
 import { ref } from 'vue'
-
-type Course = {
-  title: string
-  lectures: number
-  thumbnail: string
-}
+import { Course } from '@interface/course.interface'
 
 const isLiked = ref<boolean>(false)
 

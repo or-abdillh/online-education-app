@@ -83,16 +83,11 @@
 <script setup lang="ts">
 
 import CardTrendingCourse from '@/components/card/TrendingCourse.vue'
+import { Course } from '@interface/course.interface'
 
 type Category = {
   name: string
   icon: string
-}
-
-type Course = {
-  title: string
-  lectures: number
-  thumbnail: string
 }
 
 // dummy categories
