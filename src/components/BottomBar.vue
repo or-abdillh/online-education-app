@@ -30,7 +30,7 @@ const active = computed(() => route.name as string)
 const menus: Array<Menu> = [
   { name: 'home', icon: 'fa-home', path: '/' },
   { name: 'chats', icon: 'fa-comment', path: '/chats' },
-  { name: 'setting', icon: 'fa-cog' },
+  { name: 'setting', icon: 'fa-cog', path: '/setting' },
   { name: 'courses', icon: 'fa-play', path: '/courses' },
 ]
 
